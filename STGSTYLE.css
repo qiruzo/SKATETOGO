@@ -70,11 +70,16 @@ nav ul li{
 }
 
 .content h1{
-    font-size: 160px;
+    font-size: 10vw;
     color: #fff;
     font-weight: 600;
     transition: 0.5s;
 }
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 8vw; /* fine-tune for phones */
+    }
+
 .content h1:hover{
     -webkit-text-stroke: 2px #fff;
     color: rgba(223, 155, 211, 0.726);
@@ -166,4 +171,5 @@ p{
         grid-template-columns: 1fr;
     }
     
+
 }
