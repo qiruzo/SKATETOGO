@@ -147,12 +147,7 @@ p{
 }
  
   
-.crop-img {
-  width: 100px;
-  height: 15.625rem;
-  object-fit: cover;     /* crops */
-  object-position: center;  /* choose what part shows */
-}
+
 
 .image-grid {
   display: grid;
@@ -167,5 +162,6 @@ p{
   object-fit: cover;
   border-radius: 0.75rem;
 }
+
 
 
