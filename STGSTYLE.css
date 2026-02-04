@@ -18,19 +18,19 @@ nav{
 .nav-links{
     flex: 1;
     text-align: right;
-    margin-top: -px;
+    
 }
 
 
 nav ul h3{
 
-    font-size: 25px;
+    font-size: 1.5625rem;
   
 }
 
 nav ul li{
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 3.125rem;
     margin-top: 0;
     
 }
@@ -39,7 +39,7 @@ nav ul li{
 
 
 .logo{
-    font-size: 30px;
+    font-size: 1.875rem;;
     font-weight: bold;
     color:  #8ef3f7d2;
     
@@ -65,7 +65,7 @@ nav ul li{
 
 .content{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 
 }
 
@@ -125,7 +125,7 @@ p{
 }  
 
 .testimonial{
-    margin-top: -525px;
+    margin-top: 0.625rem;
     text-align: center;
     padding: 20px 20px;
 }
@@ -172,4 +172,5 @@ p{
         grid-template-columns: 1fr;
     }
     
+
 }
